@@ -1,4 +1,4 @@
-# Ревью для [@Vlad_VS92](https://github.com/Vlad06091992/java_roadmap_simulation)
+# Ревью проекта Симуляция для [@Vlad_VS92](https://github.com/Vlad06091992/java_roadmap_simulation)
 
 ## Хорошо:
 1. Симуляция работает, прогресс отрисовывается
