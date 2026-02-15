@@ -55,6 +55,7 @@
 8. В [CurrenciesServlet](https://github.com/Olegarh86/Exchanger_ferever/blob/090e3db2ae97ea4633878c97d48ea50cdbab9692/src/main/java/servlets/CurrenciesServlet.java#L23) [`JdbcCurrencyDao currencyDao`](https://github.com/Olegarh86/Exchanger_ferever/blob/090e3db2ae97ea4633878c97d48ea50cdbab9692/src/main/java/servlets/CurrenciesServlet.java#L24) должно быть transient, прочитай, пожалуйста почему так и что это значит для понимания
 
 9. В целом во всех сервлетах объекты Dao должны быть transient, вот что об этом пишет SonarQube, прочитай подробнее пожалуйста об этом
+<img width="1028" height="543" alt="image" src="https://github.com/user-attachments/assets/534b8bdb-cd0b-469a-90cc-e6fe1626585d" />
 
 10. В классе [DataSource](https://github.com/Olegarh86/Exchanger_ferever/blob/090e3db2ae97ea4633878c97d48ea50cdbab9692/src/main/java/utils/DataSource.java#L1-L50) есть комментарии, переменные и импорты, которые нужно почистить
 
