@@ -44,6 +44,7 @@
 5. Класс [JdbcExchangeRateDao](https://github.com/Olegarh86/Exchanger_ferever/blob/090e3db2ae97ea4633878c97d48ea50cdbab9692/src/main/java/dao/JdbcExchangeRateDao.java#L16) содержит те же критические ошибки, что и класс `JdbcCurrencyDao`, только здесь ты не создал кастомное исключение ещё и для `findRate()` :)
 6. Зачем тебе классы [CurrencyRequestDto](https://github.com/Olegarh86/Exchanger_ferever/blob/090e3db2ae97ea4633878c97d48ea50cdbab9692/src/main/java/dto/CurrencyRequestDto.java#L3) и [ExchangeRateRequestDto](https://github.com/Olegarh86/Exchanger_ferever/blob/090e3db2ae97ea4633878c97d48ea50cdbab9692/src/main/java/dto/ExchangeRateRequestDto.java#L7)? Удали их, они неиспользуемые, а значит им не нужно быть в проекте
 7. Это написал не ты, а AI. Ты всё же копировал и использовал AI-шку. У меня были подозрения ещё вот на [этом](https://github.com/Olegarh86/Exchanger_ferever/blob/090e3db2ae97ea4633878c97d48ea50cdbab9692/src/main/java/contextListener/ServletContextListener.java#L11) моменте, а вот [тут](https://github.com/Olegarh86/Exchanger_ferever/blob/090e3db2ae97ea4633878c97d48ea50cdbab9692/src/main/java/mappers/ExchangerMapper.java#L11) уже сомнений не осталось. Дальше смотреть не хочу, потому что я хотел, чтобы написал это ты сам.
-![img.png](img.png)
-![img_1.png](img_1.png)
+<img width="1293" height="386" alt="image" src="https://github.com/user-attachments/assets/463dbcec-db82-44de-a549-57f9233e1b34" />
+<img width="1157" height="381" alt="image" src="https://github.com/user-attachments/assets/5370f63c-071e-418c-8560-6e0fa0a7a0a6" />
+
 8. Overall Ai-шка написала неплохо, но хотелось бы увидеть твою работу.
